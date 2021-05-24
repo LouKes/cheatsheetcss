@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Courier Prime' serif;
   font-style: normal;
@@ -7,15 +8,18 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 header {
-text-align: center;
 background-color: lavender;
+width:75%;
 }
 header h1 {
+  text-align: center;
+  width: 75%;
   font-weight: 800;
-  padding: 20px;
+  padding: 10px;
 }
 h2 {
-  text-align: center;
+  width: 75%;
+  text-align: left;
   font-weight: 600;
   padding: 10px;
 }
@@ -25,6 +29,7 @@ font-weight: bold;
 font-size: 18px;
 }
 table {
+  width: 75%;
   border: solid;
 }
 th, td {
